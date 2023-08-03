@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+#slider {
+    display: flex;
+    overflow: hidden;
+}
+
+#slider img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+#travelPackages {
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+#contactForm {
+    padding: 1rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, button {
+    padding: 0.5rem;
+}
+
+/* HEADER SECTION */
+
+#HeaderNavigation {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 12px;
+}
+
+#Navigation {
+    display: flex;
+    gap: 15px;
+    
+}
+
+#HeaderTitle {
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5px;
+border-radius: 3px;
+}
+
+#Subtitle {
+    color: orange;
+    border-radius: 3px;
+}
+
+/* MAIN SECTION*/
+#Call Us {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    
+}
+
+#article {
+    flex-basis: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#contactForm {
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: gray;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+#Titlesubtitle {
+    margin: 10px;
+}
